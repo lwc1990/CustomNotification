@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D75008C1EC2FA1400C0017F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75008B1EC2FA1400C0017F /* main.m */; };
+		3D75008F1EC2FA1400C0017F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75008E1EC2FA1400C0017F /* AppDelegate.m */; };
+		3D7500921EC2FA1400C0017F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7500911EC2FA1400C0017F /* ViewController.m */; };
+		3D7500951EC2FA1400C0017F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7500931EC2FA1400C0017F /* Main.storyboard */; };
+		3D7500971EC2FA1400C0017F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7500961EC2FA1400C0017F /* Assets.xcassets */; };
+		3D75009A1EC2FA1400C0017F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7500981EC2FA1400C0017F /* LaunchScreen.storyboard */; };
+		3D7500A41EC2FA9100C0017F /* LWCNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7500A31EC2FA9100C0017F /* LWCNotificationCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D7500871EC2FA1400C0017F /* LWCNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWCNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D75008B1EC2FA1400C0017F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D75008D1EC2FA1400C0017F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D75008E1EC2FA1400C0017F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D7500901EC2FA1400C0017F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D7500911EC2FA1400C0017F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D7500941EC2FA1400C0017F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D7500961EC2FA1400C0017F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D7500991EC2FA1400C0017F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D75009B1EC2FA1400C0017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7500A21EC2FA9100C0017F /* LWCNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCNotificationCenter.h; sourceTree = "<group>"; };
+		3D7500A31EC2FA9100C0017F /* LWCNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCNotificationCenter.m; sourceTree = "<group>"; };
+		3D7500A51EC3131800C0017F /* testProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testProtocol.h; path = LWCNotificationCenter/testProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D7500841EC2FA1400C0017F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D75007E1EC2FA1400C0017F = {
+			isa = PBXGroup;
+			children = (
+				3D7500891EC2FA1400C0017F /* LWCNotificationCenter */,
+				3D7500881EC2FA1400C0017F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D7500881EC2FA1400C0017F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D7500871EC2FA1400C0017F /* LWCNotificationCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D7500891EC2FA1400C0017F /* LWCNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D7500A11EC2FA5E00C0017F /* LWCNotificationCenter */,
+				3D75008D1EC2FA1400C0017F /* AppDelegate.h */,
+				3D75008E1EC2FA1400C0017F /* AppDelegate.m */,
+				3D7500901EC2FA1400C0017F /* ViewController.h */,
+				3D7500911EC2FA1400C0017F /* ViewController.m */,
+				3D7500A51EC3131800C0017F /* testProtocol.h */,
+				3D7500931EC2FA1400C0017F /* Main.storyboard */,
+				3D7500961EC2FA1400C0017F /* Assets.xcassets */,
+				3D7500981EC2FA1400C0017F /* LaunchScreen.storyboard */,
+				3D75009B1EC2FA1400C0017F /* Info.plist */,
+				3D75008A1EC2FA1400C0017F /* Supporting Files */,
+			);
+			path = LWCNotificationCenter;
+			sourceTree = "<group>";
+		};
+		3D75008A1EC2FA1400C0017F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D75008B1EC2FA1400C0017F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D7500A11EC2FA5E00C0017F /* LWCNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D7500A21EC2FA9100C0017F /* LWCNotificationCenter.h */,
+				3D7500A31EC2FA9100C0017F /* LWCNotificationCenter.m */,
+			);
+			path = LWCNotificationCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D7500861EC2FA1400C0017F /* LWCNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D75009E1EC2FA1400C0017F /* Build configuration list for PBXNativeTarget "LWCNotificationCenter" */;
+			buildPhases = (
+				3D7500831EC2FA1400C0017F /* Sources */,
+				3D7500841EC2FA1400C0017F /* Frameworks */,
+				3D7500851EC2FA1400C0017F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWCNotificationCenter;
+			productName = LWCNotificationCenter;
+			productReference = 3D7500871EC2FA1400C0017F /* LWCNotificationCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D75007F1EC2FA1400C0017F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = personCompany;
+				TargetAttributes = {
+					3D7500861EC2FA1400C0017F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D7500821EC2FA1400C0017F /* Build configuration list for PBXProject "LWCNotificationCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D75007E1EC2FA1400C0017F;
+			productRefGroup = 3D7500881EC2FA1400C0017F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D7500861EC2FA1400C0017F /* LWCNotificationCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7500851EC2FA1400C0017F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D75009A1EC2FA1400C0017F /* LaunchScreen.storyboard in Resources */,
+				3D7500971EC2FA1400C0017F /* Assets.xcassets in Resources */,
+				3D7500951EC2FA1400C0017F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D7500831EC2FA1400C0017F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7500A41EC2FA9100C0017F /* LWCNotificationCenter.m in Sources */,
+				3D7500921EC2FA1400C0017F /* ViewController.m in Sources */,
+				3D75008F1EC2FA1400C0017F /* AppDelegate.m in Sources */,
+				3D75008C1EC2FA1400C0017F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D7500931EC2FA1400C0017F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D7500941EC2FA1400C0017F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D7500981EC2FA1400C0017F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D7500991EC2FA1400C0017F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D75009C1EC2FA1400C0017F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D75009D1EC2FA1400C0017F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D75009F1EC2FA1400C0017F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LWCNotificationCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personCompany.LWCNotificationCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D7500A01EC2FA1400C0017F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LWCNotificationCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personCompany.LWCNotificationCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7500821EC2FA1400C0017F /* Build configuration list for PBXProject "LWCNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D75009C1EC2FA1400C0017F /* Debug */,
+				3D75009D1EC2FA1400C0017F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D75009E1EC2FA1400C0017F /* Build configuration list for PBXNativeTarget "LWCNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D75009F1EC2FA1400C0017F /* Debug */,
+				3D7500A01EC2FA1400C0017F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D75007F1EC2FA1400C0017F /* Project object */;
+}
